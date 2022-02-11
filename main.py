@@ -12,7 +12,8 @@ import feedparser
 corona_ticker_and_maps_articles = [
     'https://www.zeit.de/wissen/aktuelle-corona-zahlen-karte-deutschland-landkreise',
     'https://www.zeit.de/wissen/gesundheit/corona-zahlen-europa-weltweit-aktuell-karte',
-    'https://www.zeit.de/politik/ausland/2021-11/corona-weltweit-omikron-news-live'
+    'https://www.zeit.de/politik/ausland/2021-11/corona-weltweit-omikron-news-live',
+    'https://www.zeit.de/politik/deutschland/2021-11/corona-deutschland-omikron-news-live'
 ]
 
 
