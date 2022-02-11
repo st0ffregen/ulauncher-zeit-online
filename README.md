@@ -1,2 +1,31 @@
-# ulauncher-zeit-online
-Ulauncher extension to get the newest articles from ZEIT ONLINE
+<!--suppress HtmlDeprecatedAttribute -->
+<h1 align="center">
+    <img alt="Ulauncher Zeit Online Logo" src="https://raw.githubusercontent.com/st0ffregen/ulauncher-zeit-online/main/images/icon.png?sanitize=true">
+    <br>
+  Ulauncher Zeit Online
+</h1>
+
+
+<h4 align="center">
+    Ulauncher extension to get the newest articles from Zeit Online
+    <img alt="Ulauncher Zeit Online Demo Picture" src="https://raw.githubusercontent.com/st0ffregen/ulauncher-zeit-online/main/images/demo.png?sanitize=true">
+    <br>
+</h4>
+
+## Requirements
+- feedparser >= 4.0.0
+
+To install this extension:
+
+1. Install required packages
+2. Open `Preferences` window
+3. Select `Extensions` tab
+4. Click `Add extension` button on the sidebar
+5. Paste the following url: `https://github.com/st0ffregen/ulauncher-zeit-online`
+
+## Usage
+
+1. Open `Preferences` window
+2. Select `Extensions` tab
+3. Click on `Wiki Search` extension
+4. Set the `Wiki URLs` value to the list of wiki URLs separated by the `|` sign
