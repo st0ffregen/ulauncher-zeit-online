@@ -1,0 +1,84 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Zeit Online",
+    "description": "Shows the newest articles from german newspaper Zeit Online",
+    "developer_name": "Niclas Stoffregen",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.1
+    },
+    "preferences": [
+        {
+            "id": "keyword",
+            "type": "keyword",
+            "name": "Zeit Online",
+            "description": "Read from given feed. See below for choices",
+            "default_value": "zon"
+        },
+        {
+            "id": "default_feed",
+            "type": "select",
+            "name": "When no feed is entered. Use default:",
+            "description": "Choose between different feeds",
+            "default_value": "Alle Inhalte",
+            "options": [
+                {
+                    "value": "all",
+                    "text": "Alle Inhalte"
+                },
+                {
+                    "value": "digital",
+                    "text": "Digital"
+                },
+                {
+                    "value": "entdecken",
+                    "text": "Entdecken"
+                },
+                {
+                    "value": "kultur",
+                    "text": "Kultur"
+                },
+                {
+                    "value": "mobilitaet",
+                    "text": "Mobilität"
+                },
+                {
+                    "value": "politik",
+                    "text": "Politik"
+                },
+                {
+                    "value": "sport",
+                    "text": "Sport"
+                },
+                {
+                    "value": "wirtschaft",
+                    "text": "Wirtschaft"
+                },
+                {
+                    "value": "wissen",
+                    "text": "Wissen"
+                },
+                {
+                    "value": "campus",
+                    "text": "Zeit Campus Online"
+                },
+                {
+                    "value": "zeit-magazin",
+                    "text": "Zeit Magazin Online"
+                },
+                {
+                    "value": "arbeit",
+                    "text": "Zeit Online Arbeit"
+                }
+            ]
+        },
+        {
+            "id": "is_corona_ticker_and_maps_included",
+            "type": "select",
+            "name": "Include corona news ticker and maps",
+            "description": "Include the corona news ticker and maps",
+            "default_value": "False",
+            "options": ["True", "False"]
+        }
+    ]
+}
