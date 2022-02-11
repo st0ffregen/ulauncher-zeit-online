@@ -15,17 +15,10 @@
 ## Requirements
 - feedparser >= 4.0.0
 
-To install this extension:
+## To install this extension:
 
 1. Install required packages
 2. Open `Preferences` window
 3. Select `Extensions` tab
 4. Click `Add extension` button on the sidebar
 5. Paste the following url: `https://github.com/st0ffregen/ulauncher-zeit-online`
-
-## Usage
-
-1. Open `Preferences` window
-2. Select `Extensions` tab
-3. Click on `Wiki Search` extension
-4. Set the `Wiki URLs` value to the list of wiki URLs separated by the `|` sign
