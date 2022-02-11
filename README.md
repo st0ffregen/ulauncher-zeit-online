@@ -1,11 +1,11 @@
 <!--suppress HtmlDeprecatedAttribute -->
 <h1 align="center">
-    <img alt="Ulauncher Zeit Online Logo" src="https://raw.githubusercontent.com/st0ffregen/ulauncher-zeit-online/main/images/icon.png?sanitize=true">
+    <img alt="Ulauncher Zeit Online Logo" src="https://raw.githubusercontent.com/st0ffregen/ulauncher-zeit-online/main/images/icon.png?sanitize=true" width=120>
     <br>
   Ulauncher Zeit Online
 </h1>
 
-
+<br><br>
 <h4 align="center">
     Ulauncher extension to get the newest articles from Zeit Online
     <img alt="Ulauncher Zeit Online Demo Picture" src="https://raw.githubusercontent.com/st0ffregen/ulauncher-zeit-online/main/images/demo.png?sanitize=true">
