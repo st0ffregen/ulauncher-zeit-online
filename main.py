@@ -46,7 +46,6 @@ class KeywordQueryEventListener(EventListener):
 
     def add_newest_zeit_online_articles(self, items):
         url = build_url(self.feed)
-        print(url)
         NewsFeed = feedparser.parse(url)
 
 
@@ -67,7 +66,6 @@ class KeywordQueryEventListener(EventListener):
     def on_event(self, event, extension):
         items = []
         entered_feed = event.get_query()[4:] # remove beginning "zon "
-        print("1111 " + str(entered_feed))
         self.feed = entered_feed if entered_feed else extension.preferences['default_feed']
         self.is_corona_ticker_and_maps_included = extension.preferences['is_corona_ticker_and_maps_included']
         self.add_newest_zeit_online_articles(items)
